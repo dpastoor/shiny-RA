@@ -25,7 +25,7 @@ shinyServer(function(input, output) {
                       Paw0 = input$Paw0)
     
     
-    res <- simulx(model='base_added.txt', 
+    res <- simulx(model='abatacept', 
                   parameter=pdf, 
                   output=list(Paw, KIN))
     res
